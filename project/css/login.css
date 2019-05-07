@@ -1,0 +1,56 @@
+.login-box {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	display: inline-block;
+	padding: 35px;
+	height: 400px;
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #e1e4ea;
+
+}
+
+h1 a{
+	color: black;
+	text-decoration: none;
+	font-size: 45px;
+}
+
+.login-content{
+	padding: 45px;
+}
+
+.login-content a{
+	color: blue;
+	font-size: 10px;
+}
+
+#pw{
+	padding-top: 2px;
+	text-align: right;
+}
+
+.eingabebereich{
+	padding: 15px;
+	padding-bottom: 40px;
+}
+.eingabebereich input {
+	width: 100%;
+	height: 25px;
+}
+
+div{
+	padding-top: 10px;
+	justify-content: center;
+	margin-right: 0;
+	margin-left: 0;
+
+}
+
+button {
+	width: 60%;
+	font-size: 15px;
+	border-radius: 4px;
+}

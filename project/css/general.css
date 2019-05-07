@@ -1,0 +1,53 @@
+.root{
+	display: -webkit-flex;
+	display: flex; 
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0;
+ 	background-color: #f1f1f1;
+  	font-family: Arial;
+
+}
+
+main, footer{
+	text-align: center;
+
+
+}
+
+header {
+	text-align: right;
+
+}
+
+main {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+
+}
+
+footer {
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-color: grey;
+	padding: 25px;
+
+	width: 100%;
+	background-color: #e1e4ea;
+
+}
+
+footer a{
+	font-size: 15px;
+	color: blue;
+	padding: 10px ;
+}
+body {
+	width: 100%;
+	margin: 0;
+}
