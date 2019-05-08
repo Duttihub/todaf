@@ -12,11 +12,27 @@
 
 }
 
+.registrierung-content h3 {
+	margin-top: 25px;
+}
+
 .eingabebereich{
 	font-size: 20px;
 	padding: 20px;
-	size: 20px;
 	height: 20px;
-	width: 60%;
+	text-align: center;
 
+}
+
+.eingabebereich input{
+	width: 80%;
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.registrieren-button button{
+	margin-top: 200px;
+	font-size: 15px;
+	width: 50%;
 }
