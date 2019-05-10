@@ -1,10 +1,40 @@
-header{
-	padding: 15px;
+header a{
+ margin-top: 2px;
+ padding-top: 2px;
 }
 
-main{
-	background-color: blue;
+.content{
+	margin: 30px;
+	margin-top: 100px;
 }
-header{
-	background-color: green;
+.trailer-img img{
+	height: 350px;
+	width: 600px;
 }
+.column1{
+	float: left;
+	width: 50%;
+}
+.column2{
+	float: right;
+	width: 50%;
+}
+
+.column2 p{
+	margin-top: 0px;
+	text-align: justify;
+	line-height: 1.5;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.properties ul{
+	list-style-type: none;
+	text-align: left;
+	font-size: 18px;
+	font-family: 'Baloo Bhai', cursive;
+}
+.properties li:before{
+	content: '#';
+}
+

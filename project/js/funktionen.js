@@ -4,6 +4,10 @@
 var loginButton = document.getElementById("login"); 
 loginButton.addEventListener("click", function(){window.location = 'login.html'});
 
+var registrierenButton = document.getElementById("registrieren"); 
+registrierenButton.addEventListener("click", function(){window.location = 'registrierung.html'});
+
+
 
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {

@@ -9,18 +9,23 @@ body{
 	min-height: 100vh;
 	margin: 0;
  	background-color: #f1f1f1;
-  	font-family: Arial;
+  	font-family: Helvetica Neue;
 
 }
+.landingpage{
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
 
 main, footer{
 	text-align: center;
-
-
 }
 
 header {
 	text-align: right;
+	margin-bottom: 20px;
+	padding: 15px;
 
 }
 
@@ -33,11 +38,8 @@ footer {
 	border-top-style: solid;
 	border-top-width: 2px;
 	border-color: grey;
-	padding: 25px;
-
-	
+	padding: 25px;	
 	background-color: #e1e4ea;
-
 }
 
 footer a{
