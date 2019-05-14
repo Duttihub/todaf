@@ -1,0 +1,63 @@
+
+main{
+margin-top: 40px;
+}
+
+
+.sucheBox{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 30%;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+
+}
+
+.sucheBox button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 30%;
+
+}
+.sucheFelder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sucheFelder div *{
+    margin: 0px;
+}
+
+#column1{
+    flex: 30%;
+    float: left;
+    text-align: right;
+ 
+
+}
+
+#column1 div, #column2 div{
+    padding: 10px;
+    align-items: flex-end; 
+}
+
+#column2{
+    float: left;
+    flex:50%;
+    text-align: left;
+    width: 150%;
+    align-items: flex-end; 
+
+
+}
+
+#column2 input{
+    font-size: 15px;
+    height: 20px
+    width:100%;
+}
+

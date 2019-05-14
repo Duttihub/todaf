@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+	<link rel="stylesheet" href="css/erw_suche.css">
+	<link rel="stylesheet" href="css/general_in.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	
+
+</head>
+<body>
+	<header>
+		 <nav>
+	  	<div id="flex-start">
+	    	<h3><a href="start_user.html"> title</a></h3>
+	    </div>
+	    <div id="flex-end">
+	    		<input type="text" name="search" placeholder="Search..">	    	
+	    		<button><b>erw. Suche</b></button>
+	    		<button><b>Mein Profil</b></button>
+	    		<button><i class="fas fa-sign-out-alt"></i></button>
+
+		</div>	    	
+	  </nav>
+	</header>
+	<main>
+		<h1>Suchen</h1>
+		<div class="sucheBox">
+			<div class="sucheFelder">
+				<div id="column1">
+					<div><b>Titel</b></div>
+					<div><b>Typ</b></div>
+					<div><b>Länge</b></div>
+					<div><b>Alter</b></div>
+					<div><b>Category</b></div>
+					<div><b>Category</b></div>
+					<div><b>Category</b></div>
+				</div>
+			<div id="column2">					
+				<div><input type="text" name="sucheTitel"></div>
+				<div id="checkbox">
+					
+						<input type="checkbox" id="check-film" onclick="myFunction()">
+						<b>Film</b>
+					
+					
+						<input type="checkbox" id="check-serie" onclick="myFunction()">
+						<b>Serie</b>
+					
+				</div>
+				<div data-role="rangeslider">												       
+						<input type="range" name="range-1a" id="range-1a" min="0" max="100" value="40" data-popup-enabled="true" data-show-value="true">
+				</div>
+				<div><input type="text" name="sucheAlter"></div>
+				<div><input type="text" name="suche#1"></div>
+				<div><input type="text" name="suche#2"></div>
+				<div><input type="text" name="suche#3"></div>
+			</div>
+		</div>
+			<button>suchen</button>
+		</div>
+
+
+	</main>
+	<footer>	
+		<a href="">Impressum</a>
+		<a href="">Kontakt</a>
+	</footer>
+
+</body>
+</html>
