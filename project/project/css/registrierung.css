@@ -1,0 +1,38 @@
+.registrierung-box {
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	display: inline-block;
+	padding: 35px;
+	height: 400px;
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #e1e4ea;
+
+}
+
+.registrierung-content h3 {
+	margin-top: 25px;
+}
+
+.eingabebereich{
+	font-size: 20px;
+	padding: 20px;
+	height: 20px;
+	text-align: center;
+
+}
+
+.eingabebereich input{
+	width: 80%;
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.registrieren-button button{
+	margin-top: 200px;
+	font-size: 15px;
+	width: 50%;
+}

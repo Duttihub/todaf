@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+		<link rel="stylesheet" href="css/start_admin.css">   	
+		<link rel="stylesheet" href="css/general_in.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+      <meta charset="utf-8">
+      <title> webflix </title>
+   </head>
+   <body>
+   	<header>
+	  <nav>
+	  	<div id="flex-start">
+	    	<h3><a href="start_user.html"> title</a></h3>
+	    </div>
+	    <div id="flex-end">
+	    		<input type="text" name="search" placeholder="Search..">
+	    		<button>Verwaltung</button>	    	
+	    		<button>erw. Suche</button>
+	    		<button>Mein Profil</button>
+	    		<button><i class="fas fa-sign-out-alt"></i></button>
+
+		</div>	    	
+	  </nav>
+	</header>
+    <main>
+    	<div class="titleAndDesc">
+	    	<h1>Willkommen</h1>
+
+	    	<p id="description">
+	    		texttextetxtexttexttextetxtexttexttextetxtexttexttextetxtexttexttextetxtext
+				texttextetxtexttexttextetxtexttexttextetxtexttexttextetxtexttexttextetxtext			
+				texttextetxtexttexttextetxtexttexttextetxtexttexttextetxtexttexttextetxtext	
+				texttextetxtexttexttextetxtexttexttextetxtexttexttextetxtexttexttextetxtext	
+				texttextetxtexttexttextetxtexttexttextetxtexttexttextetxtexttexttextetxtext
+			</p>
+		</div>
+		<div class="uebersichtSerienFilme">
+			<div id="myBtnContainer">
+			  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+			  <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+			  <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
+			  <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+			</div>
+
+			<!-- Portfolio Gallery Grid -->
+			<div id="portfolio">
+				<div class="row" >
+				  <div class="column comedy">
+				    <div class="content">
+				      <img src="bilder/HIMYM.png" alt="How I Met Your Mother" style="width:100%">
+				      <h4>How I Met Your Mother</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column comedy">
+				    <div class="content">
+				      <img src="bilder/MF.png" alt="Modern Family" style="width:100%">
+				      <h4>Modern Family</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column comedy">
+				    <div class="content">
+				      <img src="bilder/BBT.png" alt="The Big Bang Theory" style="width:100%">
+				      <h4>The Big Bang Theory</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+
+				  <div class="column fantasy">
+				    <div class="content">
+				      <img src="bilder/got.png" alt="Game of Thrones" style="width:100%">
+				      <h4>Game of Thrones</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column fantasy">
+				    <div class="content">
+				      <img src="bilder/sn.png" alt="Super Natural" style="width:100%">
+				      <h4>Super Natural</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column fantasy">
+				    <div class="content">
+				      <img src="bilder/vikings.png" alt="Vikings" style="width:100%">
+				      <h4>Vikings</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+
+				  <div class="column thriller">
+				    <div class="content">
+				      <img src="bilder/sherloch.png" alt="Sherlock" style="width:100%">
+				      <h4>Sherlock</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column thriller">
+				    <div class="content">
+				      <img src="bilder/hdg.png" alt="Haus des Geldes" style="width:100%">
+				      <h4>Haus des Geldes</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				  <div class="column thriller">
+				    <div class="content">
+				      <img src="bilder/twd.png" alt="The Walking Dead" style="width:100%">
+				      <h4>The Walking Dead</h4>
+				      <p>Lorem ipsum dolor..</p>
+				    </div>
+				  </div>
+				<!-- END GRID -->
+				</div>
+			</div>
+		</div>
+	</main>	
+	<footer>
+		<a href="">Impressum</a>
+		<a href="">Kontakt</a>
+	</footer>
+	<script src="js/start_user.js"></script>
+   </body>
+</html>
