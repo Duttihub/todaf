@@ -2,15 +2,16 @@ const express = require('express')
 const sqlite = require('sqlite')
 const bodyParser = require('body-parser')
 const { check, validationResult, body } = require('express-validator');
+const cors = require('cors');
 
 const dbPromise = sqlite.open('./db.sqlite', { Promise });
 dbPromise.then((db) => {
 
   db.migrate({ force: 'last' })
 
-
   const app = express()
   app.use(bodyParser.json())
+  app.use(cors())
 
   // Return all movies with filter
   // @TODO: Filter implementieren
@@ -83,6 +84,6 @@ dbPromise.then((db) => {
 
 
 
-  app.listen(3000)
+  app.listen(3001)
 })
 

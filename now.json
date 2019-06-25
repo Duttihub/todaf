@@ -1,9 +1,0 @@
-{
-    "name": "todaf",
-    "builds": [
-        {
-            "src": "backend/index.js",
-            "use": "@now/node"
-        }
-    ]
-}
