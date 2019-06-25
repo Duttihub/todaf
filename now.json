@@ -1,4 +1,5 @@
 {
+    "name": "todaf",
     "builds": [
         {
             "src": "backend/index.js",
